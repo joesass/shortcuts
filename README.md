@@ -11,7 +11,15 @@
 - [chrome](#chrome)
 - [mac](#mac)
 - [markdown](#markdown)
+- [npm](#npm)
 
+
+## Key Symbol Table
+
+- Command ⌘
+- Shift ⇧
+- Option ⌥
+- Control ⌃
 
 
 ## bash
@@ -39,8 +47,8 @@ and it will change the file extension
 ## atom
 
 - Find a matching bracket with control-m
-- Delete a whole line with control-shift-k
-- Select a whole line with command-l
+- Delete a whole line with control-⇧-k
+- Select a whole line with ⌘-l
 
 ### open-in-browser package
 
@@ -52,15 +60,17 @@ and it will change the file extension
 ## chrome
 
 - enable chrome://flags/#show-saved-copy for offline versions of all your pages
-- Command-Option-i will toggle the dev tools
-- Command-K will clear the input
+- ⌘-⌥-i will toggle the dev tools
+- ⌘-⌥-j will open and toggle the console in devtools
+- ⌘-K will clear the input
+- ⌘-⇧-D will toggle the view of the devtools dock
 
 ## mac
 
 ### Spotlight
 
-- Open Spotlight Search bar with Command-Space
-- open a file in Finder from Spotlight results with Command-Enter
+- Open Spotlight Search bar with ⌘-Space
+- open a file in Finder from Spotlight results with ⌘-Enter
 
 ## markdown
 
@@ -77,3 +87,9 @@ Let's go to the Bash shortcuts yaaaay! [BASH YO FACE](#bash).
 - [ ] Write out instructions for checklist with `- [ ] item`
 - [x] complete an item by putting an x in the box
 - [ ] add as many items to the list as necessary
+
+## NPM
+
+### Yarn
+
+Instead of `npm install` which downloads dependencies for every new project, use [Yarn](https://yarnpkg.com/en/) which caches your dependencies locally and takes a fraction of the time.
